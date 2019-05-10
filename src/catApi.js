@@ -1,6 +1,6 @@
-import axios from 'axios'
-
-export function fetchRandomCat() {
-  // TODO - fetch json from the http://aws.random.cat/meow or a similar random cat API
-  throw new Error("not implemented")
+export function fetchRandomCat(currentImage) {
+  let promise = fetch('https://api.thecatapi.com/v1/images/search') // Call the fetch function passing the url of the API as a parameter
+    .then((response) => response.json())
+    .catch((error) => console.log("Failed to load", error));
+  return promise
 }
