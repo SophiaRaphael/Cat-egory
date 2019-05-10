@@ -24,7 +24,7 @@ class CatList extends React.Component {
     if(Object.entries(categoryToBeDisplayed).length === 0 && categoryToBeDisplayed.constructor === Object)
       return null
     return (
-      <ul class='categoryImages'>
+      <ul className='categoryImages'>
         {categoryToBeDisplayed.images.map(image => <li><img src={image}/></li>)}
       </ul>
     );

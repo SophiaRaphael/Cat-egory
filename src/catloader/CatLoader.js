@@ -60,7 +60,7 @@ class CatLoader extends React.Component {
             <img src= {this.props.catImage} alt='Random Cat'/> }
         </div>
         <button onClick={this.getRandomImage} className='nextButton'>Next</button>
-        <div class='categoryInputWrapper'>
+        <div className='categoryInputWrapper'>
           <input type= 'text' className= 'categoryName' placeholder = 'Enter a category' onChange= {this.getInputValue} value={categoryInput}/>
           <button onClick={this.handleSave}>Save</button>
         </div>
