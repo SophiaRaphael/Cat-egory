@@ -33,6 +33,10 @@ class CatLoader extends React.Component {
     })
   }
 
+  componentDidMount () {
+    this.handleSave()
+  }
+
   handleSave = () => {
     let category = this.state.categoryInput
     this.getRandomImage()

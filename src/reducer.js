@@ -1,7 +1,7 @@
 import { ADD_CATEGORY, UPDATE_CATEGORY, UPDATE_IMAGE, DISPLAY_CATEGORY} from './actions'
 
 let initialState = {
-  currentImage: 'https://cdn2.thecatapi.com/images/vJ3lEYgXr.jpg',
+  currentImage: '',
   imageLoaded: true,
   displayedCategory: '',
   displayCount: 0,
