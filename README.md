@@ -7,20 +7,6 @@ Create a javascript application that connects to http://aws.random.cat to pull r
 - There should be an input to label the image with a category, and a save button next to it
 - There should be a list of all the categories saved so far
 - If you click on a category, it should show a list of the all the cats saved in that category
-- If you reload the page, or navigate back to the page, the previously saved cats and categories should still exist
-
-### Stack
-- Use a javascript Single Page Application (SPA) framework: e.g. React, Vue, Angular, Ember, etc.
-- Use bootstrap (and your own styles css)
-- no backend other than the cat api. Site should be static, only clientside javascript
-
-### Deliverables
-- full application code
-- image of the project
-- a link to the deployed project (github pages is a nice free option)
-
-### Mock up
-![wireframe](cat-egory.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
